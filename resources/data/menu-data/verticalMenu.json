@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "url": "references",
+      "name": "References",
+      "icon": "grid",
+      "slug": "references"
+    },
+      {
+          "url": "exports",
+          "name": "Data Export",
+          "icon": "database",
+          "slug": "exports"
+      },
+      {
+          "url": "pictures",
+          "name": "Images",
+          "icon": "image",
+          "slug": "pictures"
+      },
+      {
+          "url": "users",
+          "name": "Users",
+          "icon": "users",
+          "slug": "users"
+      }
+  ]
+}

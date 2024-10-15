@@ -1,0 +1,111 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+/* BB Theming */
+
+.btn, .card, .header-navbar.floating-nav {
+    border-radius: 0;
+}
+
+.action-btn {
+    font-size: 1.3em;
+}
+.nav-tabs .nav-link.disabled {
+    color: #0c102a;
+}
+.flatpickr-calendar .flatpickr-day.inRange {
+    color: #fff !important;
+}
+
+.bg-mediumblue{
+    background-color: #004DA1;
+}
+.image-upload-div {
+    margin-bottom: 10px;
+}
+.image-upload-div img {
+    cursor: pointer;
+    width: 100% !important;
+}
+.image-upload-lg {
+    height: 100%;
+}
+.image-upload-sm {
+    height: 23%;
+}
+
+.main-menu .navbar-header {
+    height: 7rem;
+}
+
+.semi-dark-layout .main-menu {
+    background: #33363B;
+}
+
+.main-menu.menu-dark .navigation > li.active > a {
+    background: #777;
+    box-shadow: none;
+}
+
+.main-menu.menu-dark .navigation, .semi-dark-layout .main-menu-content .navigation-main {
+    background: none;
+}
+
+/* ------------------------------ Font-Family CSS ---------------------------*/
+@font-face {
+    font-family: 'calibri';
+    src: url('../../fonts/calibri/calibri.ttf');
+}
+@font-face {
+    font-family: 'calibribold';
+    src: url('../../fonts/calibri/calibribold.ttf');
+}
+@font-face {
+    font-family: 'calibrilight';
+    src: url('../../fonts/calibri/calibrilight.ttf');
+}
+.calibri{
+    font-family: 'calibri' !important;
+}
+.calibribold{
+    font-family: 'calibribold' !important;
+}
+.calibrilight{
+    font-family: 'calibrilight' !important;
+}
+.card-img{
+    height: 240px;
+}
+
+/* image gallery css */
+.card-img{
+    height: 240px;
+}
+.dark-dropdown-icon.form-select{
+    background-image: url('../../images/svg/dark-dropdown.svg') !important;
+    background-size: 12px 14px !important;
+}
+.dark-placeholder::placeholder {
+    color: #262626 !important;
+}
+.modal-content{
+    width: 850px;
+    height: 420px;
+}
+
+@media only screen and (max-width: 992px) {
+    .modal-content{
+        width: 850px;
+        height: 780px;
+    }
+}
